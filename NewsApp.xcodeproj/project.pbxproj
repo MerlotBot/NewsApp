@@ -13,6 +13,8 @@
 		BB2535B122BFDAFB00F03529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2535B022BFDAFB00F03529 /* Assets.xcassets */; };
 		BB2535B422BFDAFB00F03529 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2535B322BFDAFB00F03529 /* Preview Assets.xcassets */; };
 		BB2535B722BFDAFB00F03529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2535B522BFDAFB00F03529 /* LaunchScreen.storyboard */; };
+		BB2535C022BFDBA500F03529 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2535BF22BFDBA500F03529 /* Article.swift */; };
+		BB2535C322BFDC4700F03529 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2535C222BFDC4700F03529 /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BB2535B322BFDAFB00F03529 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB2535B622BFDAFB00F03529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB2535B822BFDAFB00F03529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB2535BF22BFDBA500F03529 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		BB2535C222BFDC4700F03529 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		BB2535A922BFDAF800F03529 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				BB2535C122BFDC3900F03529 /* Services */,
+				BB2535BE22BFDB9100F03529 /* Models */,
 				BB2535AA22BFDAF800F03529 /* AppDelegate.swift */,
 				BB2535AC22BFDAF800F03529 /* SceneDelegate.swift */,
 				BB2535AE22BFDAF800F03529 /* ContentView.swift */,
@@ -73,6 +79,22 @@
 				BB2535B322BFDAFB00F03529 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB2535BE22BFDB9100F03529 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB2535BF22BFDBA500F03529 /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB2535C122BFDC3900F03529 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BB2535C222BFDC4700F03529 /* Webservice.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2535C022BFDBA500F03529 /* Article.swift in Sources */,
 				BB2535AB22BFDAF800F03529 /* AppDelegate.swift in Sources */,
 				BB2535AD22BFDAF800F03529 /* SceneDelegate.swift in Sources */,
+				BB2535C322BFDC4700F03529 /* Webservice.swift in Sources */,
 				BB2535AF22BFDAF800F03529 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

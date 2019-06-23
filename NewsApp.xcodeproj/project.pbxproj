@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB14723522C018A700A23E6C /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB14723422C018A700A23E6C /* ArticleListViewModel.swift */; };
 		BB2535AB22BFDAF800F03529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2535AA22BFDAF800F03529 /* AppDelegate.swift */; };
 		BB2535AD22BFDAF800F03529 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2535AC22BFDAF800F03529 /* SceneDelegate.swift */; };
 		BB2535AF22BFDAF800F03529 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2535AE22BFDAF800F03529 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB14723422C018A700A23E6C /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
 		BB2535A722BFDAF800F03529 /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2535AA22BFDAF800F03529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB2535AC22BFDAF800F03529 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB14723322C0188100A23E6C /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB14723422C018A700A23E6C /* ArticleListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		BB25359E22BFDAF700F03529 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		BB2535A922BFDAF800F03529 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
+				BB14723322C0188100A23E6C /* View Models */,
 				BB2535C122BFDC3900F03529 /* Services */,
 				BB2535BE22BFDB9100F03529 /* Models */,
 				BB2535AA22BFDAF800F03529 /* AppDelegate.swift */,
@@ -169,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB2535C022BFDBA500F03529 /* Article.swift in Sources */,
+				BB14723522C018A700A23E6C /* ArticleListViewModel.swift in Sources */,
 				BB2535AB22BFDAF800F03529 /* AppDelegate.swift in Sources */,
 				BB2535AD22BFDAF800F03529 /* SceneDelegate.swift in Sources */,
 				BB2535C322BFDC4700F03529 /* Webservice.swift in Sources */,
